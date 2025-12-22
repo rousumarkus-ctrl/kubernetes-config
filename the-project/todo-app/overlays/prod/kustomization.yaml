@@ -3,4 +3,8 @@ kind: Kustomization
 namespace: production
 
 resources:
-  - ./../../base
+- ./../../base
+images:
+- name: PROJECT/TODOAPP
+  newName: mrousu/todo-app
+  newTag: b2b313b97bf38a441c7593aa513466585a5b5520

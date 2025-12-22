@@ -3,5 +3,9 @@ kind: Kustomization
 namespace: production
 
 resources:
-  - ./../../base
-  - pg-dump.yaml
+- ./../../base
+- pg-dump.yaml
+images:
+- name: PROJECT/TODOBACKEND
+  newName: mrousu/todo-backend
+  newTag: b2b313b97bf38a441c7593aa513466585a5b5520
