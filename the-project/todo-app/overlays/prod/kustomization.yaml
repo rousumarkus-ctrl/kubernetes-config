@@ -7,4 +7,4 @@ resources:
 images:
 - name: PROJECT/TODOAPP
   newName: mrousu/todo-app
-  newTag: b2b313b97bf38a441c7593aa513466585a5b5520
+  newTag: d10f379a8e0393a9c09bc92b48151ccbe142a2a9
