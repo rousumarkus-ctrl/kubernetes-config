@@ -8,4 +8,4 @@ resources:
 images:
 - name: PROJECT/TODOBACKEND
   newName: mrousu/todo-backend
-  newTag: 051be81be3caad881b141305171fe3c9455a58d8
+  newTag: edab90cdc8c6289acce9872f408386c713a5c1e9
